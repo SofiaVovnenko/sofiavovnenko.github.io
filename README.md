@@ -1,1 +1,1 @@
-# Training project__page-site
+AVTR site sofiavovnenko.github.io/AVTR/
