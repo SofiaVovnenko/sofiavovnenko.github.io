@@ -137,6 +137,7 @@ ul {
 
 .section__title {
     margin-bottom: 25px;
+    margin-top: 0;
     text-transform: uppercase;
     color: #F402A2;
     font-size: 18px;
@@ -226,17 +227,27 @@ ul {
     fill: #53A1CB;
 }
 
-.disign {
+.design {
     margin-bottom: 150px;
 }
 
-.disign_inner {
+.design_inner {
     display: flex;
-    gap: 60px;
+    flex-direction: column;
 }
 
-#disign_interior-img-2 {
-    padding-bottom: 88px;
+.design__column {
+    display: flex;
+}
+
+.design__text {
+    max-width: 255px;
+    margin-right: 44px;
+}
+
+.design_interior-img {
+    flex-grow: 1;
+    margin-bottom: 44px;
 }
 
 .decor__before-footer {
@@ -246,4 +257,8 @@ ul {
     background-position: center;
     background-size: cover;
     margin-top: 150px;
+}
+
+.design_interior-img.right {
+    align-self: flex-end
 }
