@@ -11,7 +11,6 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 .container {
@@ -57,14 +56,6 @@ a {
     opacity: 1;
 }
 
-.header-btn {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    justify-items: end;
-    align-items: center;
-}
-
 .login {
     opacity: 0.5;
     color: #fff;
@@ -73,11 +64,125 @@ a {
     transition: all .5s;
 }
 
+.login:hover {
+    opacity: 1;
+}
+
+.header-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: end;
+    align-items: center;
+}
+
 .sigh-up {
+    opacity: 0.8;
     text-transform: uppercase;
     color: #250F8A;
     font-weight: 600;
     background-color: #fff;
     padding: 8px 43px;
     border-radius: 20px;
+    transition: all .5s;
+}
+
+.sigh-up:hover {
+    opacity: 1;
+}
+
+.header-content {
+    padding-top: 111px;
+}
+
+.header-content__item-content {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    grid-template-rows: auto;
+}
+
+.header-content__item-info {
+    max-width: 506px;
+    color: #fff;
+}
+
+.header-content__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.header-content__description {
+    font-size: 24px;
+    line-height: 55px;
+    margin-bottom: 60px;
+}
+
+.header-content_btn {
+    opacity: 0.8;
+    text-transform: uppercase;
+    color: #250F8A;
+    font-weight: 600;
+    padding: 13px 39px;
+    background-color: #FFCA00;
+    border-radius: 25px;
+    transition: all .5s;
+}
+
+.header-content_btn:hover {
+    opacity: 1;
+}
+
+.header-content__item-images {
+    margin: 10px 82px 0 0;
+}
+
+.specialised {
+    padding: 55px 0 93px;
+    background-image: url(../images/special-bg.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    color: #202020;
+    text-align: center;
+}
+
+.specialised__title {
+    margin-bottom: 96px;
+}
+
+.title {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.specialised__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.specialised__item {
+    width: 280px;
+}
+
+.specialised__item-img {
+    margin-bottom: 23px;
+
+}
+
+.specialised__item-title {
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.specialised__item-text {
+    padding: 0 10px;
+    color: #272727;
+    opacity: 0.7;
 }
