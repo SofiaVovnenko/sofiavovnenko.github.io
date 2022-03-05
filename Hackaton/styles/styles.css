@@ -38,6 +38,11 @@ a {
     align-items: center;
 }
 
+.logo {
+    position: top left;
+    height: inherit;
+}
+
 .header-content {
     padding-top: 111px;
 }
@@ -59,4 +64,20 @@ a {
     font-size: 24px;
     line-height: 35px;
     margin-bottom: 35px;
+}
+
+.header-content_btn {
+    opacity: 0.8;
+    justify-self: end;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 13px 39px;
+    background-color: #45523f;
+    border-radius: 25px;
+    transition: all .5s;
+}
+
+.header-content_btn:hover {
+    opacity: 1;
 }
