@@ -38,6 +38,19 @@ a {
     align-items: center;
 }
 
+.header__menu a {
+    opacity: 0.5;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .5s;
+    margin: 10px;
+}
+
+.header__menu a:hover {
+    opacity: 1;
+}
+
 .logo {
     position: top left;
     height: inherit;
@@ -50,6 +63,10 @@ a {
 .header-content__item-content {
     display: flex;
     justify-content: end;
+}
+
+.header-content__item-info {
+    text-align: end;
 }
 
 .header-content__title {
@@ -81,3 +98,113 @@ a {
 .header-content_btn:hover {
     opacity: 1;
 }
+
+.reviews {
+    background-color: beige;
+    background-size: cover;
+    padding: 40px 0 80px;
+}
+
+.reviews__title {
+    color: #000000;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.reviews__items {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__item {
+    width: 300px;
+    border-radius: 5px;
+    color: #000000;
+    padding: 35px 20px;
+}
+
+.reviews_item-head {
+    margin-bottom: 13px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.reviews__item-name {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+.reviews__item-text {
+    max-width: 300px;
+    align-content: center;
+}
+
+/*----------- solutions-------------------*/
+.solution {
+    width: 100%;
+    min-height: 640px;
+    background-color: #45523f;
+}
+
+.solution__container {
+    background-image: url("../images/photo_2022-03-05_17-07-43.jpg");
+    max-width: 1168px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.solution__tittle {
+    display: block;
+    margin: 50px auto 70px;
+    height: 68px;
+    padding: 10px 0px;
+
+}
+
+.solution__text {
+    display: block;
+    margin: 0px auto 70px;
+    height: 88px;
+    padding: 10px 50px;
+    text-align: center;
+
+}
+
+.solution__table {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-around;
+}
+
+.solution__item {
+    width: 25%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solution__image {
+    width: 60px;
+    height: 60px;
+}
+
+.solution__qty {
+    font-size: 48px;
+    color: antiquewhite;
+}
+
+.solution__smalltext {
+    text-align: center;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+/*----------- solutions- end-------------------*/
