@@ -232,3 +232,60 @@ a {
     color: #fff;
     text-transform: uppercase;
 }
+
+/*----------- products- start-------------------*/
+.products {
+    width: 100%;
+    min-height: 640px;
+}
+
+.products__container {
+    max-width: 1168px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.products__title {
+    display: block;
+    margin: 50px auto 70px;
+    height: 68px;
+    padding: 10px 0px;
+}
+
+.products__table {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-between;
+}
+
+.products__item {
+    max-width: 30%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products__name {
+    font-size: 24px;
+    display: block;
+    margin: 20px auto 40px;
+    text-align: center;
+}
+
+.image-container {
+    width: 360px;
+
+}
+
+.products__image {
+    width: 100%;
+    max-height: 200px;
+}
+
+.products__description {
+    text-align: center;
+}
+
+/*----------- products- end-------------------*/
