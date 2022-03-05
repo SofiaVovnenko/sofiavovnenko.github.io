@@ -208,3 +208,27 @@ a {
 }
 
 /*----------- solutions- end-------------------*/
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    color: #fff;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.footer {
+    background-image: url(../images/footer-bg.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+    text-transform: uppercase;
+}
