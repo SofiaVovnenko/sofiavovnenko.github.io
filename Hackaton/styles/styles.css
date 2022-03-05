@@ -237,6 +237,7 @@ a {
 .products {
     width: 100%;
     min-height: 640px;
+    padding-bottom: 50px;
 }
 
 .products__container {
@@ -289,3 +290,77 @@ a {
 }
 
 /*----------- products- end-------------------*/
+
+.page_form {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    width: 100vw;
+    justify-content: center;
+}
+
+.page_form_left {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr;
+    grid-template-areas: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.page_form_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 1fr 1fr 1fr;
+    background-color: #3B4344;
+    justify-items: center;
+    gap: 10px;
+}
+
+.form_header {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 45px;
+    grid-row: 1/2;
+    justify-items: flex-start;
+    padding-top: 20px;
+}
+
+.logo_form {
+    grid-row: 2/3;
+}
+
+.bella_eating {
+    grid-row: 3/4;
+    width: 450px;
+    height: 270px;
+}
+
+.discount_phrase {
+    grid-row: 1/2;
+    color: white;
+    margin-top: 80px;
+}
+
+.fbutton {
+    width: 200px;
+    height: 35px;
+    background-color: #74ADA5;
+    color: white;
+    border: none;
+}
+
+.fbutton:hover {
+    background-color: #33524e;
+}
+
+.form {
+    color: white;
+    outline: none;
+    border: none;
+    grid-row: 2/4;
+    align-items: center;
+}
+
+input {
+    outline: none;
+    margin: 10px;
+    align-items: center;
+}
