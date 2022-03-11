@@ -322,3 +322,151 @@ a {
 .footer__copy {
     justify-self: end;
 }
+
+@media screen and (min-width:768px) and (max-width:1475px) {
+    .header {
+        width: 100vw;
+    }
+
+    .header__top {
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1.8fr;
+        grid-template-rows: 1fr;
+    }
+
+    .menu__list {
+        padding-left: 10%;
+    }
+
+    .header-content {
+        padding-top: 5%;
+    }
+
+    .header-content__item-info {
+        max-width: 506px;
+        color: #fff;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .specialised {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-image: none;
+    }
+
+    .specialised__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .specialised__item {
+        margin: 5%;
+    }
+
+    .advantages {
+        background-image: none;
+    }
+
+    .advantages-box__images {
+        max-width: 100%;
+    }
+
+    .reviews__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .reviews__item {
+        margin: 5%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .header {
+        width: 100vw;
+    }
+
+    .header__top {
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+    }
+
+    .header-btn {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto; */
+        justify-items: center;
+        align-items: center;
+    }
+
+    .menu__list {
+        justify-items: center;
+        align-items: center;
+    }
+
+    .header-content {
+        padding-top: 5%;
+    }
+
+    .header-content__item-info {
+        max-width: 506px;
+        color: #fff;
+    }
+
+    .header-content__item-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .header-content__item-images {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .specialised {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-image: none;
+    }
+
+    .specialised__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .specialised__item {
+        margin: 5%;
+    }
+
+    .advantages {
+        background-image: none;
+    }
+
+    .advantages-box__images {
+        max-width: 100%;
+    }
+
+    .reviews__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .reviews__item {
+        margin: 5%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
