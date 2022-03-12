@@ -11,56 +11,27 @@
     <style>
         .container {
             text-align: center;
-            border: 1px solid black;
-            background-color: rgb(93, 93, 206);
-        }
-
-        .gallery {
-            height: 40vh;
-        }
-
-        .title_and_buy {
-            border: 1px solid black;
-        }
-
-        .title {
-            border-bottom: 1px solid black;
-            height: 10vh;
-        }
-
-        .descr {
-            border-bottom: 1px solid black;
-            height: 20vh;
-        }
-
-        .related {
-            height: 20vh;
         }
     </style>
-
 
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6 container gallery">
+            <div class="gallery col-6 p-3 mb-2 bg-info text-white border-right">Gallery</div>
+            <div class="col-6 p-3 mb-2 bg-info text-white">
                 <div class="row">
-                    <div class="col-12">Gallery</div>
+                    <div class="title col-12 p-3 bg-info text-white border-bottom">Title</div>
+                    <div class="buy_box col-12 p-3 bg-info text-white">Buy Box</div>
                 </div>
             </div>
-            <div class="col-6 container title_and_buy">
-                <div class="row">
-                    <div class="col-12 title">Title</div>
-                    <div class="col-12 buy">Buy Box</div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 descr">Description</div>
-                    <div class="col-12 related">Related</div>
-                </div>
-            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-3 mb-2 bg-info text-white">Description</div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-3 mb-2 bg-info text-white">Related</div>
         </div>
     </div>
 
