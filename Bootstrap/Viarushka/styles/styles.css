@@ -57,13 +57,18 @@
 }
 
 .header__btn-group {
-    padding-top: 150px;
-
-
+    padding-top: 10px;
 }
 
 .btn-link {
-    color: #5222D0;
+    color: #000;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+
+
 }
 
 .btn-link:hover {
@@ -74,4 +79,77 @@
     max-width: 365px;
     padding: 0;
     margin-top: 10px;
+}
+
+.opportunities {
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.opportunities__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+}
+
+.opportunities__col-card1 {
+    position: relative;
+}
+
+.card1-img-top {
+    position: absolute;
+    left: 35px;
+    height: 48%;
+}
+
+.opportunities__col-card2 {
+    position: relative;
+}
+
+.card2-img-top {
+    position: absolute;
+    left: 35px;
+    height: 48%;
+}
+
+.opportunities__col-card3 {
+    position: relative;
+}
+
+.card3-img-top {
+    position: absolute;
+    left: 20px;
+    height: 48%;
+}
+
+.card-title_white {
+    color: #fff;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.card-text {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.card__btn {
+    margin-bottom: 55px;
+    margin-top: 25px;
+}
+
+.card:hover {
+    border: 1px solid #BB2247;
 }
