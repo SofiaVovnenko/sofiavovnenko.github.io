@@ -151,3 +151,7 @@
 .card:hover {
     border: 1px solid #BB2247;
 }
+
+.card-bg {
+    background-color: #EC615B;
+}
