@@ -11,6 +11,15 @@
     background-color: #5222D0;
 }
 
+.btn-info:focus {
+    background-color: #5222D0;
+}
+
+.btn-info:active {
+    background-color: #5222D0;
+    opacity: 0.7;
+}
+
 .btn-info {
     text-transform: uppercase;
     border-radius: 100px;
